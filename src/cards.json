@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "name": "Monsoon",
+        "image": "https://archives.bulbagarden.net/media/upload/2/29/666Vivillon-Monsoon.png",
+        "count": 0
+    },
+    {
+        "id": 1,
+        "name": "Continental",
+        "image": "https://archives.bulbagarden.net/media/upload/3/3b/666Vivillon-Continental.png",
+        "count": 0
+    },
+    {
+        "id": 2,
+        "name": "Elegant",
+        "image": "https://archives.bulbagarden.net/media/upload/0/0a/666Vivillon-Elegant.png",
+        "count": 0
+    },
+    {
+        "id": 3,
+        "name": "Polar",
+        "image": "https://archives.bulbagarden.net/media/upload/a/a6/666Vivillon-Polar.png",
+        "count": 0
+    },
+    {
+        "id": 4,
+        "name": "Garden",
+        "image": "https://archives.bulbagarden.net/media/upload/6/64/666Vivillon-Garden.png",
+        "count": 0
+    },
+    {
+        "id": 5,
+        "name": "High-Plains",
+        "image": "https://archives.bulbagarden.net/media/upload/b/b6/666Vivillon-High_Plains.png",
+        "count": 0
+    },
+    {
+        "id": 6,
+        "name": "Icy-Snow",
+        "image": "https://archives.bulbagarden.net/media/upload/6/6c/666Vivillon-Icy_Snow.png",
+        "count": 0
+    },
+    {
+        "id": 7,
+        "name": "Jungle",
+        "image": "https://archives.bulbagarden.net/media/upload/1/19/666Vivillon-Jungle.png",
+        "count": 0
+      },
+      {
+        "id": 8,
+        "name": "Marine",
+        "image": "https://archives.bulbagarden.net/media/upload/4/4d/666Vivillon-Marine.png",
+        "count": 0
+      },
+      {
+        "id": 9,
+        "name": "Meadow",
+        "image": "https://archives.bulbagarden.net/media/upload/f/f4/666Vivillon-Meadow.png",
+        "count": 0
+      },
+      {
+        "id": 10,
+        "name": "Modern",
+        "image": "https://archives.bulbagarden.net/media/upload/d/d8/666Vivillon-Modern.png",
+        "count": 0
+      },
+      {
+        "id": 11,
+        "name": "Ocean",
+        "image": "https://archives.bulbagarden.net/media/upload/6/6c/666Vivillon-Ocean.png",
+        "count": 0
+      }   
+]
