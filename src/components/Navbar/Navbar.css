@@ -1,0 +1,11 @@
+#game-title, #icon {
+    margin-top: 10px;
+}
+
+.navbar-brand, .navbar-text {
+    font-size: 30px
+}
+
+#highscore {
+    margin-right: 20px;
+}

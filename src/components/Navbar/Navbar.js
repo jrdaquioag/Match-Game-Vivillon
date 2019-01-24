@@ -1,4 +1,5 @@
 import React from "react";
+import "./Navbar.css"
 
 // eslint-disable-next-line
 const Navbar = props => (
@@ -13,15 +14,19 @@ const Navbar = props => (
                 </li>
             </ul>
         </div> */}
-        <img className = "navbar-brand" src = "./favicon.ico" alt = "react_icon" />
-        {// eslint-disable-next-line
-        }<a className="navbar-brand" href="#">Vivillon Match Game</a>
+        <img id = "icon" className = "navbar-brand" src = "./favicon.ico" alt = "react_icon" />
+        <ul className="nav navbar-nav navbar-left">
+            <li id = "game-title" className="nav-item">
+                {// eslint-disable-next-line
+                }<a className="navbar-brand" href="#">Vivillon Match Game</a>
+            </li>
+        </ul>
 
         <ul className="nav navbar-nav navbar-right">
-            <li className="nav-item">
+            <li id = "score" className="nav-item">
                 <p className="navbar-text">Score: <span>{props.score}</span></p>
             </li>
-            <li className="nav-item">
+            <li id = "highscore" className="nav-item">
                 <p className="navbar-text">High Score: <span>{props.highScore}</span></p>
             </li>
         </ul>

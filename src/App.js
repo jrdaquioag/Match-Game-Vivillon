@@ -1,6 +1,7 @@
 import React from "react";
 import {Component} from "react";
 import Navbar from "./components/Navbar";
+import Wrapper from "./components/Wrapper";
 import Card from "./components/Card";
 import cards from "./cards.json"
 
@@ -22,6 +23,8 @@ class App extends Component {
     // If card was clicked already, player loses
     else 
       this.gameOver(false);
+
+    this.setState({cards: this.state.cards.sort(() => 0.5 - Math.random())});
   }
 
   // Increment handler for score, highScore, and clickedCardIds
@@ -54,10 +57,13 @@ class App extends Component {
   render() {
     return (
       <div className = "container-fluid">
+
         <Navbar score = {this.state.score} highScore = {this.state.highScore} />
-        {this.state.cards.map((card, i) => (
-          <Card key = {i} id = {card.id} name = {card.name} image = {card.image} cardClick = {this.cardClick.bind(this)}/>
-        ))}
+        <Wrapper>
+          {this.state.cards.map((card, i) => (
+            <Card key = {Math.random()+i} id = {card.id} name = {card.name} image = {card.image} cardClick = {this.cardClick.bind(this)}/>       
+          ))}
+        </Wrapper>
       </div>
     )
   }
