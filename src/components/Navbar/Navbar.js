@@ -1,5 +1,6 @@
 import React from "react";
 
+// eslint-disable-next-line
 const Navbar = props => (
     <nav className="navbar navbar-expand-xl bg-info">
         {/* <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
@@ -13,14 +14,15 @@ const Navbar = props => (
             </ul>
         </div> */}
         <img className = "navbar-brand" src = "./favicon.ico" alt = "react_icon" />
-        <a className="navbar-brand" href="#">Vivillon Match Game</a>
+        {// eslint-disable-next-line
+        }<a className="navbar-brand" href="#">Vivillon Match Game</a>
 
         <ul className="nav navbar-nav navbar-right">
             <li className="nav-item">
                 <p className="navbar-text">Score: <span>{props.score}</span></p>
             </li>
             <li className="nav-item">
-                <p className="navbar-text">Top Score: <span>{props.topScore}</span></p>
+                <p className="navbar-text">High Score: <span>{props.highScore}</span></p>
             </li>
         </ul>
 

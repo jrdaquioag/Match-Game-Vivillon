@@ -2,7 +2,10 @@
     background: white;
 }
 
+.card:hover, .card:active {
+    cursor: pointer;
+}
+
 .card-img {
-    height: 100%;
 }
 
